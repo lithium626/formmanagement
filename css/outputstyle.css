@@ -1,0 +1,215 @@
+/*-------------------------AUTHOR--------------------------------*/
+
+/*-------------------------W. Darell Matthews--------------------*/
+
+/*-------------------------SITE WIDE-----------------------------*/
+
+@page {
+		size: auto;
+		margin: 8px;
+	}
+
+body {
+		background-color: #15304d;
+		color: black;
+		font-family: Georgia, Verdana, serif;
+		
+	}
+	
+/*------------------------CONTAINER------------------------------*/
+
+.container {
+		/*background-color: white;
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+		padding: 10px;
+		border-radius: 10px;*/
+	}
+
+/*------------------------HEADER---------------------------------*/
+
+.header {
+		font-family: CartoBold,Arial,sans-serif;
+		font-weight: 400;
+		background-color: white;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 auto;
+		max-width: 100%;
+		border-radius: 10px;
+	}
+
+.header img {
+		float: left;
+		margin-top: 20px;
+		margin-left: 5%;
+	}
+
+.header #nav {
+		float: right;
+		margin-right: 5%;
+		text-transform: uppercase;
+	}
+
+.header #clearfloat {
+		clear: both;
+	}
+
+.header li {
+		height: 32px;
+		margin: 8px 5px 2px;
+		width: 168px;
+		text-align: center;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+.header li a {
+		background-color: #15304d;
+		display: block;
+		padding: 7px 2px 7px;
+		font-size: 16px;
+		text-decoration: none;
+		color: white;
+	}
+
+/*------------------------------------CONTENT--------------------------------*/
+
+.content {
+		font-family: CartoBold,Arial,sans-serif;
+		background-color: white;
+		padding: 20px;
+		margin: 0 auto;
+		margin-top: 10px;
+		max-width: 90%;
+		border-radius: 10px;
+	}
+
+.content #printlogo {
+		text-align: center;
+		display: none;
+	}
+
+.content h2 {
+		text-align: center;
+		font-size: 30px;
+		/*margin-bottom: 20px;*/
+	}
+	
+.content h3 {
+		text-align: center;
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+.content p {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+.content #options {
+		padding: 10px;
+		background-color: lightgrey;
+		-webkit-appearance: none;
+	}
+	
+.content form {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+.content form input {
+		font-size: 12px;
+		padding: 5px;
+		width: 200px;
+		margin-right: 20px;
+		border: none;
+		background: transparent;
+	}
+.content form #filename {
+		width: 400px;
+	}
+
+.content form textarea {
+		font-size: 11px;
+		padding: 10px;
+	}
+
+.content ::-webkit-input-placeholder {
+		color: gray;
+		font-size: 11px;
+	}
+
+		:-moz-placeholder { /* Firefox 18- */
+		color: gray;
+		font-size: 11px;
+	}
+
+		::-moz-placeholder {  /* Firefox 19+ */
+		color: gray;
+		font-size: 11px;
+	}
+
+		:-ms-input-placeholder {  
+		color: gray;
+		font-size: 11px;
+	}
+
+.content form #label {
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+.content form #checkbox {
+		width: 10px;
+		margin-left: 0px;
+		margin-bottom: 5px;
+		-ms-transform: scale(2);
+		-moz-transform: scale(2);
+		-webkit-transform: scale(2);
+		-o-transform: scale(2);
+	}
+
+.content input[type=date]::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		display: none;
+	}
+
+.content input[type=date]::-webkit-clear-button {
+		display: none; /* Hide the button */
+		-webkit-appearance: none; /* turn off default browser styling */
+	}
+
+.content form hr {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+.content #biglinebreak {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+.content #signature {
+		width: 200px;
+		font-size: 18px;
+		font-family: 'La Belle Aurore', cursive;
+	}
+
+@media print {
+		@page { size: 240mm 317mm; }
+		.header { display: none; }
+		.content #printlogo { display: block; margin: left; margin-top: -15px; }
+		.content h2 { font-size: 20px; }
+		.content #printbutton { display: none; }
+		.content li { font-size: 11px; }
+		.content ol { margin-bottom: 25px; }
+		.content form { margin-top: auto; }
+		.content form input { padding: 2px; margin: 0; width: auto; }
+		.content form input[type="text"] { width: 350px; }
+		.content form #checkbox { width: 8px; }
+		.content #options { padding: 0px; }
+		.content hr { margin-top: 2px; margin-bottom: 2px; }
+		.content br:nth-child(3n+1) { display:none; }
+	}

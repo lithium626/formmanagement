@@ -1,0 +1,294 @@
+/*-------------------------AUTHOR--------------------------------*/
+
+/*-------------------------W. Darell Matthews--------------------*/
+
+/*-------------------------SITE WIDE-----------------------------*/
+
+body {
+		background-color: #15304d;
+		color: black;
+		font-family: Georgia, Verdana, serif;
+	}
+	
+/*------------------------CONTAINER------------------------------*/
+
+.container {
+		/*background-color: white;
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+		padding: 10px;
+		border-radius: 10px;*/
+	}
+
+/*------------------------HEADER---------------------------------*/
+
+.header {
+		font-family: CartoBold,Arial,sans-serif;
+		font-weight: 400;
+		background-color: white;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 auto;
+		max-width: 100%;
+		border-radius: 10px;
+	}
+
+.header img {
+		float: left;
+		margin-top: 20px;
+		margin-left: 5%;
+	}
+
+.header #nav {
+		float: right;
+		margin-right: 5%;
+		text-transform: uppercase;
+	}
+
+.header #clearfloat {
+		clear: both;
+	}
+
+.header li {
+		height: 32px;
+		margin: 8px 5px 2px;
+		width: 168px;
+		text-align: center;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+.header li a {
+		background-color: #15304d;
+		display: block;
+		padding: 7px 2px 7px;
+		font-size: 16px;
+		text-decoration: none;
+		color: white;
+	}
+	
+.header li a:hover {
+		background-color: #3498db;
+	}
+
+/*------------------------------------CONTENT--------------------------------*/
+
+.content {
+		font-family: CartoBold,Arial,sans-serif;
+		font-weight: 400;
+		background-color: white;
+		padding: 20px;
+		margin: 0 auto;
+		margin-top: 20px;
+		max-width: 90%;
+		border-radius: 10px;
+	}
+
+.content img {
+		height: 30%;
+		margin-top: 10px;
+		margin-right: 10px;
+		border-radius: 5px;
+		float: left;
+	}
+
+.content h2 {
+		text-align: center;
+		font-size: 32px;
+		margin-bottom: 50px;
+	}
+	
+.content h3 {
+		text-align: center;
+		font-size: 24px;
+		margin-bottom: 50px;
+	}
+
+
+.content p {
+		font-size: 16px;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-bottom: 30px;
+	}
+
+.btn {
+		/*-webkit-border-radius: 28;*/
+		/*-moz-border-radius: 28;*/
+		/*border-radius: 28px;*/
+		font-family: CartoBold,Arial,sans-serif;
+		color: #ffffff;
+		font-size: 16px;
+		background-color: #15304d;
+		padding: 10px 20px 10px 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+.btn:hover {
+		background: #3cb0fd;
+		background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+		background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+		background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+		background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+		background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+		text-decoration: none;
+	}
+
+.btn-red {
+		/*-webkit-border-radius: 28;*/
+		/*-moz-border-radius: 28;*/
+		/*border-radius: 28px;*/
+		font-family: CartoBold,Arial,sans-serif;
+		color: white;
+		font-size: 16px;
+		background-color: red;
+		padding: 10px 20px 10px 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 25px;
+		width: 80%;
+	}
+
+.content table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+.content td {
+		/*width: 30%;*/
+		padding: 10px;
+		text-align: center;
+	}
+
+.content #options {
+		background-color: lightgrey;
+		padding: 30px;
+		-webkit-appearance: none;
+	}
+	
+.content form {
+		font-size: 16px;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-bottom: 30px;
+	}
+
+.content form input {
+		font-size: 16px;
+		padding: 10px;
+		width: 20%;
+		margin-right: 20px;
+	}
+.content form #filename {
+		width: 400px;
+	}
+
+.content #highlight_chair {
+		background-color: lightgreen;
+	}
+	
+.content #highlight {
+		background-color: yellow;
+	}
+	
+.content form textarea {
+		font-size: 16px;
+		padding: 10px;
+	}
+
+.content ::-webkit-input-placeholder {
+		color: gray;
+		font-size: 12px;
+	}
+
+		:-moz-placeholder { /* Firefox 18- */
+		color: gray;
+		font-size: 12px;
+	}
+
+		::-moz-placeholder {  /* Firefox 19+ */
+		color: gray;
+		font-size: 12px;
+	}
+
+		:-ms-input-placeholder {  
+		color: gray;
+		font-size: 12px;
+	}
+
+.content form #label {
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+.content form #checkbox {
+		width: 2%;
+		margin-left: 0px;
+		margin-bottom: 5px;
+		-ms-transform: scale(2);
+		-moz-transform: scale(2);
+		-webkit-transform: scale(2);
+		-o-transform: scale(2);
+	}
+
+.content input[type=date]::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		display: none;
+	}
+
+.content input[type=date]::-webkit-clear-button {
+		display: none; /* Hide the button */
+		-webkit-appearance: none; /* turn off default browser styling */
+	}
+
+.content form hr {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+.content form select {
+		font-size: 20px;
+		-webkit-appearance: none;
+	}
+
+.content #biglinebreak {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+.content #signature {
+		width: 30%;
+		font-size: 24px;
+		font-family: 'La Belle Aurore', cursive;
+	}
+
+/*--------------------------------FOOTER--------------------------------------*/
+
+.footer {
+		background-color: white;
+		clear: both;
+		width: 100%;
+		height: 50px;
+		border: black 2px solid;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+.footer p {
+		font-style: italic;
+		font-size: 12px;
+		letter-spacing: 3px;
+		padding-top: 10px;
+	}
+
+/*-----------------------------SMALL SCREENS-------------------------------------*/
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+	table, th, td, tr {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
