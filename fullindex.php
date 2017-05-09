@@ -55,8 +55,7 @@
 						<td><button class="btn" onClick="window.location.href='door-schedules/door-schedule-input-home.php'">Faculty/Staff Door Schedules</button></td>
 						<!--<td><button class="btn" onClick="window.location.href='course-syllabi-input-home.php'">Course Syllabi</button></td>-->
 						<td><button class="btn" onClick="#">Course Syllabi</button></td>
-						<!--<td><button class="btn" onClick="window.location.href='coned-press-release/coned-press-release-input-home.php'">Con-Ed Press Release Form</button></td>-->
-						<td><button class="btn" onClick="#">Con-Ed Press Release Form</td>
+						<td><button class="btn" onClick="window.location.href='coned-press-release/coned-press-release-input-home.php'">Con-Ed Press Release Form</button></td>
 					</tr>
 				</table>
 				<table align="center">
