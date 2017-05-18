@@ -22,7 +22,7 @@
 				<h2>Faculty / Staff Door Schedule</h2>
 				
 				<p style="text-align:center;">
-					Search by <strong>Instructor's Name</strong> or Datatel Semester Code (ie: 2017sp, 2017su, 2017fa):
+					Search by <strong>Instructor's Name</strong> or <strong>Datatel Semester Code</strong> (ie: 2017sp, 2017su, 2017fa):
 				</p>
 				<form method="GET" name="door-schedule-search" action="door-schedule-search.php" style="text-align:center;">
 					<input type="text" name="search" autofocus>
